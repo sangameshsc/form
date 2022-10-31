@@ -1,0 +1,4 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="San\Form\Api\CarsRepositoryInterface" type="San\Form\Model\CarsRepository" />
+<preference for="San\Form\Api\Data\CarsInterface" type="San\Form\Model\Cars" />
+</config>
